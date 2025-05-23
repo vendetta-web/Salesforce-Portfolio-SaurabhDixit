@@ -1,0 +1,25 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-22-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="slds-var-p-around_large">
+        <h2 class="section-header">Superbadges</h2>
+        <template for:each={superbadges} for:item="badge">
+            <lightning-badge key={badge} label={badge} class="slds-badge slds-var-m-bottom_medium"></lightning-badge>
+        </template>
+
+        <h2 class="section-header">Awards</h2>
+        <template for:each={awards} for:item="award">
+            <lightning-badge key={award} label={award} class="slds-badge slds-var-m-bottom_medium"></lightning-badge>
+        </template>
+
+        <h2 class="section-header">Languages</h2>
+        <template for:each={languages} for:item="lang">
+            <lightning-badge key={lang} label={lang} class="slds-badge slds-var-m-bottom_medium"></lightning-badge>
+        </template>
+    </div>
+</template>

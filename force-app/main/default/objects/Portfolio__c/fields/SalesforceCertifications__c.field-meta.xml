@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SalesforceCertifications__c</fullName>
+    <label>Salesforce Certifications</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce Certified Associate</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Associate</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Advanced Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Advanced Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Platform App Builder</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Platform App Builder</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Platform Developer I</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Platform Developer I</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Platform Developer II</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Platform Developer II</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Sales Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Sales Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Service Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Service Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Experience Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Experience Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Marketing Cloud Email Specialist</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Marketing Cloud Email Specialist</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Marketing Cloud Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Marketing Cloud Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Marketing Cloud Developer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Marketing Cloud Developer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Marketing Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Marketing Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Pardot Specialist (Legacy)</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Pardot Specialist (Legacy)</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement Specialist</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement Specialist</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement Consultant</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Field Service Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Field Service Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Nonprofit Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Nonprofit Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Education Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Education Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified OmniStudio Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified OmniStudio Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified CPQ Specialist</fullName>
+                <default>false</default>
+                <label>Salesforce Certified CPQ Specialist</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified B2C Commerce Developer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified B2C Commerce Developer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified B2B Commerce Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce Certified B2B Commerce Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified MuleSoft Developer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified MuleSoft Developer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified MuleSoft Integration Architect</fullName>
+                <default>false</default>
+                <label>Salesforce Certified MuleSoft Integration Architect</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Slack Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Slack Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Tableau CRM &amp; Einstein Discovery Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Tableau CRM &amp; Einstein Discovery Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Business Analyst</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified AI Associate</fullName>
+                <default>false</default>
+                <label>Salesforce Certified AI Associate</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Data Architecture and Management Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Data Architecture and Management Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Sharing and Visibility Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Sharing and Visibility Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Development Lifecycle and Deployment Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Development Lifecycle and Deployment Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Identity and Access Management Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Identity and Access Management Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Integration Architecture Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Integration Architecture Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Mobile Solutions Architecture Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Mobile Solutions Architecture Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Heroku Architecture Designer</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Heroku Architecture Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Application Architect</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Application Architect</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified System Architect</fullName>
+                <default>false</default>
+                <label>Salesforce Certified System Architect</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Technical Architect (CTA)</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Technical Architect (CTA)</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Agentforce Specilist</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Agentforce Specilist</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified Data Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Certified Data Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified MuleSoft Developer I</fullName>
+                <default>false</default>
+                <label>Salesforce Certified MuleSoft Developer I</label>
+            </value>
+            <value>
+                <fullName>Salesforce Certified JavaScript Developer I</fullName>
+                <default>false</default>
+                <label>Salesforce Certified JavaScript Developer I</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

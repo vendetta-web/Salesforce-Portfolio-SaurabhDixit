@@ -1,0 +1,37 @@
+<template>
+
+<div class="banner">
+      <template if:true={linkedinUrl}>
+        <a href={linkedinUrl} target="_blank">
+          <img src={linkedin} alt="Linkedin Icon" class="social-icon">
+        </a>
+      </template>
+      <template if:true={githubUrl}>
+        <a href={githubUrl} target="_blank">
+          <img src={github} alt="Github Icon" class="social-icon">
+        </a>
+      </template>
+      <template if:true={trailheadUrl}>
+        <a href={trailheadUrl} target="_blank">
+          <img src={trailhead1} alt="Trailhead Icon" class="social-icon">
+        </a>
+      </template>
+      <template if:true={blogUrl}>
+        <a href={blogUrl} target="_blank">
+          <img src={blog} alt="Blog Icon" class="social-icon">
+        </a>
+      </template>
+      <template if:true={youtubeUrl}>
+        <a href={youtubeUrl} target="_blank">
+          <img src={youtube} alt="Youtube Icon" class="social-icon">
+        </a>
+      </template>
+
+      <template if:true={twitterUrl}>
+        <a href={twitterUrl} target="_blank">
+          <img src={twitter} alt="Twitter Icon" class="social-icon">
+        </a>
+      </template>
+<p> &copy; {currentYear} Vendetta-Web. All rights reserved.</p>
+    </div>
+</template>

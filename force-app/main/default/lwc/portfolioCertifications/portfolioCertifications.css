@@ -1,0 +1,17 @@
+img{
+    height: 60px;
+    margin-right: 16px;
+}
+.cert-box{
+    background: #69C6CB;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+h2{
+    background: #242C37;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}

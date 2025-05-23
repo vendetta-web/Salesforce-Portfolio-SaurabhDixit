@@ -1,0 +1,29 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 02-02-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="portfolioUserDetailsAndStatsWrapper">
+        <lightning-layout multiple-rows>
+            <lightning-layout-item size="12">
+                <c-portfolio-user-details record-id={recordId} object-api-name={objectApiName}></c-portfolio-user-details>
+            </lightning-layout-item>
+            <lightning-layout-item size="12">
+                <template if:true={rank}>
+                    <c-portfolio-user-stats
+                    rank={rank}
+                    badges={badges}
+                    points={points}
+                    trails={trails}></c-portfolio-user-stats>
+                </template>
+            </lightning-layout-item>
+            <!--<lightning-layout-item size="12">
+                    <c-portfolio-footer
+                    ></c-portfolio-footer>
+            </lightning-layout-item> -->
+        </lightning-layout>
+    </div>
+</template>

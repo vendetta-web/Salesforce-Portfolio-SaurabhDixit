@@ -1,0 +1,12 @@
+h2{
+    background: #242C37;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+ /* Namespace + Scope + Component + Category + Property */
+.slds-badge{
+    --slds-c-badge-color-background:#69c6cb;
+    --slds-c-badge-text-color:#000;
+}
